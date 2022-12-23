@@ -22,10 +22,11 @@ try:
                                 print("pssible for xss -> "+i)
                         except:
                             pass
+                        file.close()
                 except:
                     pass
 
-                file.close()
+
 
 except:
     print("enter some valid file or -h")
