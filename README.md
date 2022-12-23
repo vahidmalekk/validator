@@ -1,5 +1,5 @@
 # validator
-hi , im making a repsository to automate gf outputs and   validate links for diffrent vulnerabilitys
+hi , im making a repsository for  automate gf outputs and  validate links for diffrent vulnerabilitys
 
 how  should i use this files? 
 
