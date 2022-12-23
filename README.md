@@ -14,3 +14,6 @@ how  should i use this files?
 #use it
 
 4. ```./xss -h```
+# example 
+
+./xss (out put of gf tools file name)
