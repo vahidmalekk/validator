@@ -1,7 +1,7 @@
 # validator
 hi , im making a repsository to automate gf outputs and   validate links for diffrent vulnerabilitys
 
-how  should use this files? 
+how  should i use this files? 
 
 1.```git clone https://github.com/vahidmalekk/validator```
 
