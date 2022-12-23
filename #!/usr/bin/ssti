@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+import requests as req
+from sys import argv
+ssti=["{{85*85}}","${85*85}","<%= 85*85 %>","${{85*85}}","#{85*85}"]
+try:
+    if len(argv[1]) > 0:
+        target=argv[-1]
+        file = open(target,"r")
+        for i in file.readlines():
+            for j in ssti:
+                ready = i.replace("FUZZ",j)
+                read = str(ready)
+            # print(read)
+                try:
+                    send = req.get(f"{read}")
+                    answer = str(send.text)
+                    if  "7225" in answer:
+                        print(ready)
+                except:
+                        pass
+            #print(answer)
+        file.close()
+except:
+    print("enter some valid file or -h")
