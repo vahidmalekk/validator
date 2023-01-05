@@ -11,8 +11,8 @@ i will get glad to see your emiles about this repo vhidmalekk@gmail.com
 3.```pip install requests```
 
 4. ```python3 spy.py```
-5. 
-6. select the vulnerability you want to test for example ssrf
+
+5. select the vulnerability type you want to test for example ssrf
 # example 
 
 ```python3 ssrf.py```
