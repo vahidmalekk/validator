@@ -1,21 +1,18 @@
 # validator
-hi , im making a repsository for  automate gf outputs and  validate links for diffrent vulnerabilitys
+hi , my dear friend i'm making a repsository for  automating  vulnerability testing and it's not complet yet and  im in testing mode of this project 
+i will get glad to see your emiles about this repo vhidmalekk@gmail.com
 
-how  should i use this files? 
+# how  should i use this files? 
 
 1.```git clone https://github.com/vahidmalekk/validator```
 
 2.```cd validator```
 
-#make the file yot want executable(in this example xss)
+3.```pip install requests```
 
-3.```chmod +x xss```
-
-#use it
-
-4.```pip install requests```
-
-
+4. ```python3 spy.py```
+5. 
+6. select the vulnerability you want to test for example ssrf
 # example 
 
 ```python3 ssrf.py```
