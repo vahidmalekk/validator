@@ -15,7 +15,8 @@ how  should i use this files?
 
 ```pip install requests```
 
-4. ```./xss -h```
+
 # example 
 
-./xss (out put of gf tools file name)
+4. ```python3 ssrf.py```
+
